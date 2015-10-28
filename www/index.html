@@ -1,0 +1,276 @@
+
+ <html>
+  <head>
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">-->
+
+    <!--plugin block-->   
+    <script src="js/Jquery.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/>        
+    <link rel="stylesheet" href="css/themes/my-custom-theme.css" />       
+    <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />        
+    <!--end of plugin block-->
+
+    <meta name="format-detection" content="telephone=086651443">       
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>Book Movie</title>
+    <style type="text/css">
+      .text-red{
+        background-color: red;
+        border-color: red;
+      }
+      .bg-red{
+          background-color: red;
+      }
+      .bg-yellow{
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div data-role="page" data-theme="a">
+      <!--<div data-role="header" class="ui-header-fixed">  data-position="fixed" data-tap-toggle="false" role="banner"-->
+      <div class="ui-header ui-bar-a ui-header-fixed" data-role="header" data-position="fixed">
+        <h1>Book Movie</h1>    			
+      </div>
+      <div data-role="content">
+        <ul data-role="listview" data-inset="true" data-filter-placeholder="Type something what ever you want" data-filter-theme="Search result"            
+            data-filter="true" class="ui-li-count, ui-li-aside">            	
+          <li data-role="list-divider">Drama movie</li>
+          <li>
+            <a href="#">
+              <img src="img/HT.jpg">
+              <h2>Heart Attack</h2>
+              <p>Thai land movie 2015.</p>
+              <h3>Go home</h3>
+            </a>
+          </li>
+          <li data-role="list-divider">Advanture movie</li>
+          <li><a href="#">
+              <img src="img/MR2.jpg">
+              <h2>Adventure 2</h2>
+              <p>American land movie 2015.</p>
+            </a></li>                
+          <li><a href="#"><img src="img/MR2.jpg">
+              <h2>Fracry 2</h2>
+              <p>Khmer land movie 2015.</p>
+            </a></li>
+          <li data-role="list-divider">Action movie</li>
+          <li><a href="#"><img src="img/MR2.jpg">
+              <h2>Gost fighting</h2>
+              <p>American land movie 2015.</p>
+            </a></li>
+          <li><a href="#"><img src="img/DB.jpg">
+              <h2>Dragon Blade</h2>
+              <p>Chines movie 2014.</p>
+            </a></li>                               
+          <li><a href="#page-movie"><img src="img/MR2.jpg">
+              <h2>Maze Runner 2</h2>
+              <p>American movie 2015.</p>
+              <p>Run from start until the end.</p>
+            </a></li>                               
+        </ul>
+      </div>
+    </div>
+    <!-- page movie block -->
+    <div data-role="page" data-theme="a" id="page-movie">
+      <div class="ui-header ui-bar-a ui-header-fixed" data-role="header" data-position="fixed" >
+        <a data-rel="back" class="ui-btn ui-icon-arrow-l ui-btn-icon-left"></a>
+        <!--<a href="index.html" class=" ui-btn ui-corner-all ui-icon-carat-l ui-btn-left"></a>
+          <!--<h6 style="margin-top:0px; margin-bottom:0px">back</h6></a>-->
+        <h1>Maze Runner 2</h1>            
+      </div>    
+      <div data-role="content" data-theme="d" class="ui-content">    	    	
+<!--        <img src="img/MR2-1.jpg" usemap="#planetmap">
+        <map name="planetmap">
+          <area shape="rect" coords="131,66,171,100" href="https://www.youtube.com/watch?v=4Mdovvi9OC8" alt="Sun">   			
+        </map> -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_tQx__YCwZc" frameborder="0" allowfullscreen></iframe>
+        <ul data-inset="true" data-role="listview" data-split-icon="arrow-r">		                	
+          <li><a href="#">	
+              <img src="img/legend.jpg" class="ui-icon-eye"/>
+              <h2>Legend City mall</h2>
+              <p>Time : 3:30 pm</p>
+              <p>Date : 30 Oct 2015</p>              
+              <a href="#page-booking" class="ui-btn-icon-left ">Book tickit</a>
+            </a>
+          </li>                
+        </ul>
+        <ul data-inset="true" data-role="listview" data-split-icon="arrow-r">		                	
+          <li><a href="#">	
+              <img src="img/legend.jpg"/>
+              <h2>Legend Soriya</h2>
+              <p>Time : 3:30pm</p>
+              <p>Date : 29 Oct 2015</p>
+              <a href="#" class="ui-btn-icon-left ">Book tickit</a>
+            </a>
+          </li>                
+        </ul>
+        <ul data-inset="true" data-role="listview" data-split-icon="arrow-r">		                	
+          <li><a href="#">	
+              <img src="img/major.jpg"/>
+              <h2>Major Ceniplix</h2>
+              <p>Time : 5:30pm</p>
+              <p>Date : 31 Oct 2015</p>
+              <a href="#" class="ui-btn-icon-left ">Book tickit</a>
+            </a>
+          </li>                
+        </ul>
+        <ul data-inset="true" data-role="listview" data-split-icon="arrow-r">		                	
+          <li><a href="#">	
+              <img src="img/platinum.jpg"/>
+              <h2>Platinum</h2>
+              <p>Time : 3:30pm</p>
+              <p>Date : 30 Oct 2015</p>
+              <a href="#" class="ui-btn-icon-left">Book tickit</a>
+            </a>
+          </li>                
+        </ul>         
+      </div>
+    </div>   
+    <!-- block page booking -->
+    <div data-role="page" data-theme="a" id="page-booking">
+      <div class="ui-header ui-bar-a ui-header-fixed" data-role="header" data-position="fixed">
+        <a data-rel="back" class="ui-btn ui-icon-arrow-l ui-btn-icon-left"></a>
+        <h1>Maze Runner 2</h1>            
+      </div>        
+      <div data-role="content" data-theme="a" data-inset="true">    	    	
+        <h3>Process</h3>
+        <table>
+          <tr><td colspan="2" style="text-align: center"><h2>3D    3$/tickit</h2></tr>
+          <tr><td>Number of sit</td><td><input type="text" id="txtn" value="1" style="width:150px"></td></tr>
+          <tr><td id="dis">Card number</td><td><input type="text" id="vcn"></td>
+          <tr><td></td><td>
+              <select>
+                <option value="Mstercard">Mastercard</option>
+                <option value="meastro">Meastro</option>
+                <option value="visa">Visa</option>
+                <option value="Election">Election</option>
+              </select>
+            </td></tr>	
+          </tr>
+          <tr><td colspan="3"><img src="img/visa.png" width="250px"/></td></tr>
+          <tr>
+            <td>Sit Rows</td>
+            <td>
+              <select id="chr">
+                <option value="a">a</option>
+                <option value="b">b</option>
+                <option value="c">c</option>
+                <option value="d">d</option>
+                <option value="e">e</option>
+                <option value="f">f</option>
+                <option value="g">g</option>
+                <option value="h">h</option>                            
+              </select>
+            </td>                    
+          </tr>
+        </table>                        
+        <h4>Avaliable chairs is white color. </h4>
+        <table style="font-size:14pt" border="1px" id="tbl">
+          <tr>
+            <td>20</td><td>19</td><td class="bg-red">18</td><td class="bg-red">17</td><td class="bg-red">16</td><td>15</td><td>14</td><td>13</td><td>12</td><td>11</td>
+          </tr>
+          <tr>
+            <td>10</td><td class="bg-red">09</td><td>08</td><td>07</td><td>06</td><td>05</td><td>04</td><td>03</td><td>02</td><td>01</td>
+          </tr>
+        </table>        
+        <h4>Ordering</h4>    
+        <pre><p id="cn"></p>
+            <input type="button" class="ui-btn-icon-bottom" id="bts" value="BUY"/>
+        </pre>
+        <table>
+          <tr>
+            <td>Movie Titel</td>
+            <td id="mt"></td>
+          </tr>                
+          <tr>
+            <td>Cenima</td>
+            <td id="cm"></td>
+          </tr>                
+          <tr>
+            <td>Date and Time</td>
+            <td id="dt"></td>
+          </tr>                
+          <tr>
+            <td>Tickit</td>
+            <td id="tk"></td>
+          </tr>                
+          <tr>
+            <td>Chair No</td>
+            <td id="chn"></td>
+          </tr>
+          <tr>
+            <td>Price</td>
+            <td id="p"></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <!-- Java Script block -->
+    <script type="text/javascript">
+      var tn=1;
+      var temp=1;
+      $(function () {
+          $('#txtn').blur(function(){
+            tn=parseInt( $(this).val());
+          });
+          $('#tbl tr td').click(function () {
+              //$(this).fadeToggle("slow");
+              //console.log("table is clickeds");
+              if($(this).hasClass("bg-red")){               
+                return;
+              }                  
+              if($(this).hasClass("bg-yellow")){                  
+                  $(this).toggleClass("bg-yellow");                                    
+                  temp--;                 
+                  var d = $('#cn').text().toString().split(" ");
+                  $('#cn').text("");
+                  for(i=0;i<temp-1; i++){
+                     $('#cn').append(d[i]+" ");
+                  };
+                  return;
+              };
+              if(temp <= tn){
+                if($(this).toggleClass("bg-yellow")){
+                  //alert("todk");
+                  $('#cn').append($('#chr').select().val()  + $(this).text() + " ");
+                  temp++;
+                };
+              }
+              
+            //if($(this).toggleClass("bg-red")){
+              //  alert("todk");
+              //};
+              
+          });
+          //$('#txtn').first(function (event) {			
+          //		$('#tn').text($(this).val());
+          //});
+          $('#vcn').focus(function(){
+            if($(this).val()==="Invalid visar card nubmer"){
+              $(this).val("");
+            }
+          });
+          $('#bts').click(function () {
+            if($('#vcn').val()==="" || !(parseInt($('#vcn').val()))){
+              //console.log(" nothing");
+              $('#vcn').val("Invalid visar card nubmer");
+              //$('#dis').addClass("bg-red");                            
+              $('#vcn').addClass("text-red");              
+              return;
+            }else{
+              $('#vcn').removeClass("bg-red");
+            }
+              $('#mt').text("Maze runner 2");
+              $('#cm').text("Legend City Mall");
+              $('#dt').text("25 Oct 2015 / 03:30pm");
+              $('#tk').text($('#txtn').val());
+              $('#chn').text($('#cn').text());
+              $('#p').text(tn * 3 + "$");
+          });
+      });
+    </script>             
+  </body>
+</html>
